@@ -8,3 +8,9 @@
   flex: 1 1 50%;
   position: relative;
 }
+
+.menu {
+  width: 250px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
+}

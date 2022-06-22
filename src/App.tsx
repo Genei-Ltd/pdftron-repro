@@ -5,6 +5,9 @@ function App() {
   return (
     <PDFTronProvider>
       <div className='viewers'>
+        <div className='menu'>
+          Menu seems to cause selection offset
+        </div>
         <div className='viewer-container'>
           <PdfViewer
             id='1'
