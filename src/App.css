@@ -1,0 +1,10 @@
+.viewers {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.viewer-container {
+  flex: 1 1 50%;
+  position: relative;
+}

@@ -1,0 +1,19 @@
+.pageSection {
+  overflow: hidden;
+  box-shadow:
+    rgb(0 0 0 / 15%) 0px 0px 1px,
+    rgb(0 0 0 / 7%) 0px 2px 4px;
+}
+
+.scroll-view {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flow-root;
+  overflow: auto;
+  padding-block-start: 120px;
+}
+
+.viewer {
+  margin: auto;
+}
