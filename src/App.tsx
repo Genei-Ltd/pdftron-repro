@@ -10,6 +10,12 @@ function App() {
         </div>
         <div className='viewer-container'>
           <PdfViewer
+            id='3'
+            url='https://arxiv.org/pdf/2009.01325.pdf'
+          />
+        </div>
+        <div className='viewer-container'>
+          <PdfViewer
             id='1'
             url='https://genei-cdn-resources.s3.eu-west-1.amazonaws.com/e11024aa-537d-4ca5-b0f9-01235221f6dd.pdf'
           />
