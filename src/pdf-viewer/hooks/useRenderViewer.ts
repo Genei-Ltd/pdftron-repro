@@ -8,6 +8,7 @@ import {
 import { TCore, Core } from '../types'
 
 const setupDocViewer = (docViewer: Core.DocumentViewer, Core: TCore) => {
+  docViewer.getDisplayModeManager().disableVirtualDisplayMode()
   docViewer.enableAnnotations()
   docViewer.setToolMode(docViewer.getTool('AnnotationEdit'))
   docViewer.setTextHighlightColor('rgba(12, 105, 255, 0.3)')
